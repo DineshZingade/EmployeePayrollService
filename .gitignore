@@ -1,0 +1,12 @@
+./     
+.gitattributes  
+.project    
+gradle/
+../    
+
+.settings/  
+gradlew*     
+settings.gradle
+.git/  
+.gradle/        
+gradlew.bat
