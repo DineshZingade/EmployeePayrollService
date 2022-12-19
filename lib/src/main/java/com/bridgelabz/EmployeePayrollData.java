@@ -5,7 +5,6 @@ public class EmployeePayrollData {
 	String name;
 	double salary;
 
-	// create parameterized constructor using id, name, salary parameters
 	public EmployeePayrollData(int id, String name, double salary) {
 		this.id = id;
 		this.name = name;
@@ -13,7 +12,7 @@ public class EmployeePayrollData {
 	}
 
 	@Override
-	public String toString() {// returns the string representation of the object
+	public String toString() {
 		return "EmployeePayrollData{" + "id=" + id + ", name='" + name + '\'' + ", salary=" + salary + '}';
 	}
 
